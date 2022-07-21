@@ -1,7 +1,3 @@
-/* :root {
-
-} */
-
 body {
     color: #474747;
     font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
@@ -10,7 +6,6 @@ body {
 /* Header Start */
 header {
     padding: 20px 35px;
-    /* background-color: rgb(39, 240, 240); */
     display: flex;
     height: 60px;
     justify-content: space-evenly;
@@ -47,9 +42,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    /* background: #1fdfec; */
     -webkit-tap-highlight-color: transparent;
-    /* color: #091b24; */
     border-radius: 15px;
     text-shadow: none;
   }
@@ -161,6 +154,12 @@ aside {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+#professional-work h2 {
+    font-size: 40px;
+    margin-left: 10px;
+    padding-left: 40px;
 }
 
 .construction-img {
@@ -350,10 +349,27 @@ aside {
     text-shadow: 0 0 12px rgba(0, 0, 0, 400);
     color: rgb(235, 99, 253)
 }
-
 /* End Work Section */
 
 /* Contact Me Section */
+footer {
+    background:rgb(156, 156, 156);
+    margin: -8px;
+}
+
+footer h2 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    background:rgb(0, 0, 0);
+    margin-left: 40px;
+    padding-left: 40px;
+}
+
+.contact aside{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .github-img {
     height: 50px;
 }
