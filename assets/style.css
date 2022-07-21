@@ -168,6 +168,11 @@ aside {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    transition: .5s ease;
+}
+
+.construction-img:hover {
+    opacity: 0.8;
 }
 
 .construction-a {
@@ -199,6 +204,11 @@ aside {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    transition: .5s ease;
+}
+
+.cherry-img:hover {
+    opacity: 0.8;
 }
 
 .cherry-a {
@@ -232,6 +242,11 @@ aside {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    transition: .5s ease;
+}
+
+.computer-img:hover {
+    opacity: 0.8;
 }
 
 .computer-a {
@@ -265,6 +280,11 @@ aside {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    transition: .5s ease;
+}
+
+.run-buddy-img:hover {
+    opacity: 0.8;
 }
 
 .run-buddy-a {
@@ -298,7 +318,13 @@ aside {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    transition: .5s ease;
 }
+
+.phone-img:hover {
+    opacity: 0.8;
+}
+
 
 .phone-a {
     border: 4px solid rgb(2, 177, 247);
