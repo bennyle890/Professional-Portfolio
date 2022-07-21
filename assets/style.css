@@ -84,18 +84,20 @@ header nav ul li a:hover {
     height: 350px;
     width: 250px;
     transform: rotate(-5deg);
-    margin-left: 4vw;
+    margin-left: 3vw;
+    margin-right: 30px;
 }
 
 aside {
-    flex: 1;
+    flex: .5;
 }
 
 .right {
     display: flex;
     flex-wrap: wrap;
-    flex: 1;
-    margin-right: 50px;
+    justify-content: flex-end;
+    flex: 2;
+    margin-right: 80px;
     margin-top: 20px;
 }
 
@@ -104,7 +106,6 @@ aside {
     margin: 0px auto;
     display: flex;
     flex-wrap: wrap;
-    flex: 1;
     text-align: center;
 }
 
