@@ -157,7 +157,7 @@ aside {
 
 /* Start Work Section */
 .work {
-    display: wrap;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -172,21 +172,25 @@ aside {
 
 .construction-a {
     border: 4px solid rgb(2, 177, 247);
+    width: 300px;
     padding: 0 auto;
     position: relative;
-    margin: 25px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .construction-a h3 {
     position: absolute;
     top: 8px;
     left: 16px;
+    color: rgb(235, 99, 253);
 }
 
 .construction-a p {
     position: absolute;
     top: 38px;
     left: 17px;
+    color: rgb(235, 99, 253);
 }
 
 .cherry-img {
@@ -210,7 +214,7 @@ aside {
     top: 8px;
     left: 16px;
     text-shadow: 0 0 12px rgba(0, 0, 0, 400);
-    color: rgb(235, 99, 253)
+    color: rgb(235, 99, 253);
 
 }
 
@@ -320,6 +324,7 @@ aside {
     text-shadow: 0 0 12px rgba(0, 0, 0, 400);
     color: rgb(235, 99, 253)
 }
+
 /* End Work Section */
 
 /* Contact Me Section */
