@@ -116,6 +116,7 @@ aside {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 50px;
 }
 
 .below-about-me p {
@@ -152,3 +153,172 @@ aside {
     border-radius: 10%;
     border: 2px solid;
 }
+/* End About Me Section */
+
+/* Start Work Section */
+.work {
+    display: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.construction-img {
+    width: 300px;
+    height:350px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.construction-a {
+    border: 4px solid rgb(2, 177, 247);
+    padding: 0 auto;
+    position: relative;
+    margin: 25px;
+}
+
+.construction-a h3 {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.construction-a p {
+    position: absolute;
+    top: 38px;
+    left: 17px;
+}
+
+.cherry-img {
+    width: 400px;
+    height:150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.cherry-a {
+    border: 4px solid rgb(2, 177, 247);
+    padding: 0 auto;
+    position: relative;
+    margin: 25px;
+    width: 400px;
+}
+
+.cherry-a h3 {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    text-shadow: 0 0 12px rgba(0, 0, 0, 400);
+    color: rgb(235, 99, 253)
+
+}
+
+.cherry-a p {
+    position: absolute;
+    top: 38px;
+    left: 17px;
+    text-shadow: 0 0 12px rgba(0, 0, 0, 400);
+    color: rgb(235, 99, 253)
+}
+
+.computer-img {
+    width: 400px;
+    height:150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.computer-a {
+    border: 4px solid rgb(2, 177, 247);
+    padding: 0 auto;
+    position: relative;
+    margin: 25px;
+    width: 400px;
+}
+
+.computer-a h3 {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    text-shadow: 0 0 12px rgba(0, 0, 0, 400);
+    color: rgb(235, 99, 253)
+
+}
+
+.computer-a p {
+    position: absolute;
+    top: 38px;
+    left: 17px;
+    text-shadow: 0 0 12px rgba(0, 0, 0, 400);
+    color: rgb(235, 99, 253)
+}
+
+.run-buddy-img {
+    width: 400px;
+    height:150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.run-buddy-a {
+    border: 4px solid rgb(2, 177, 247);
+    padding: 0 auto;
+    position: relative;
+    margin: 25px;
+    width: 400px;
+}
+
+.run-buddy-a h3 {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    text-shadow: 0 0 12px rgba(0, 0, 0, 400);
+    color: rgb(235, 99, 253)
+
+}
+
+.run-buddy-a p {
+    position: absolute;
+    top: 38px;
+    left: 17px;
+    text-shadow: 0 0 12px rgba(0, 0, 0, 400);
+    color: rgb(235, 99, 253)
+}
+
+.phone-img {
+    width: 400px;
+    height:150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.phone-a {
+    border: 4px solid rgb(2, 177, 247);
+    padding: 0 auto;
+    position: relative;
+    margin: 25px;
+    width: 400px;
+}
+
+.phone-a h3 {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    text-shadow: 0 0 12px rgba(0, 0, 0, 400);
+    color: rgb(235, 99, 253)
+
+}
+
+.phone-a p {
+    position: absolute;
+    top: 38px;
+    left: 17px;
+    text-shadow: 0 0 12px rgba(0, 0, 0, 400);
+    color: rgb(235, 99, 253)
+}
+/* End Work Section */
+
