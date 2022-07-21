@@ -75,6 +75,7 @@ header nav ul li a:hover {
     text-shadow: 0 0 10px rgba(38, 47, 48, 0.5);
     padding: 0 auto;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .hero-img {
@@ -84,7 +85,6 @@ header nav ul li a:hover {
     width: 250px;
     transform: rotate(-5deg);
     margin-left: 4vw;
-
 }
 
 aside {
@@ -112,4 +112,43 @@ aside {
     text-align: center;
 }
 
+.below-about-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
+.below-about-me p {
+    text-align: center;
+    font-size: 25;
+    font-style: italic;
+}
+
+.below-about-me .about-me-img {
+    display: none;
+}
+
+.below-about-me:hover .about-me-img {
+    display: block;
+}
+
+.frozen-lake {
+    width: 350px;
+    height: 250px;
+    border-radius: 10%;
+    border: 2px solid;
+}
+
+.waves {
+    width: 250px;
+    height: 350px;
+    border-radius: 10%;
+    border: 2px solid;
+}
+
+.fremont {
+    width: 350px;
+    height: 250px;
+    border-radius: 10%;
+    border: 2px solid;
+}
