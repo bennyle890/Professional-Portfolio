@@ -365,9 +365,14 @@ footer h2 {
     padding-left: 40px;
 }
 
+.contact {
+    text-align: center;
+}
+
 .contact aside{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .github-img {
