@@ -42,7 +42,6 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    -webkit-tap-highlight-color: transparent;
     border-radius: 15px;
     text-shadow: none;
   }
@@ -61,14 +60,11 @@ header nav ul li a:hover {
 
 /* Hero Start */
 .hero {
-    /* background-image: url("/assets/images/clouds.gif"); */
     background-size: cover;
     background-position: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* background-attachment: fixed;
-    background-position: 80%; */
 }
 
 .hero-img {
