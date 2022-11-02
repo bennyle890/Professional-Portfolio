@@ -2,6 +2,11 @@
     background-color: #595959;
 }
 
+body {
+    color: #474747;
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
 #navbar {
     position: fixed; /* Make it stick/fixed */
     top: 0; /* Stay on top */
@@ -25,10 +30,7 @@
     color: #00ffcc;
   }
 
-body {
-    color: #474747;
-    font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-}
+
 
 /* Header Start */
 header {
@@ -37,6 +39,7 @@ header {
     background-color: #595959;
     overflow: hidden;
     width: 100%;
+    opacity: 80%;
 }
 
 header a {
@@ -77,21 +80,68 @@ header a {
 
 
 /* Hero Start */
-.hero-title {
-    font-weight: bold;
-    color: #000000;
-    padding: 0 auto;
+.hero-text {
+    padding-bottom: 20px;
+    width: 80%;
     text-align: center;
-    margin-bottom: 50px;
-    
+    /* margin-left: 5%;
+    margin-right: 5%; */
 }
 
-.hero {
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+/* .hero {
+    width: 80%;
+    margin: 0;
+} */
+
+.hero h3 {
+    color: #b3daff;
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin-bottom: -20px;
+}
+
+.hero-title {
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+}
+
+.hero-greeting {
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+}
+
+.hero h2 {
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+.hero h1 {
+    font-size: 4.5vw;
+    margin-top: -10px;
+}
+
+.hero h4 {
+    font-size: 4vw;
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+.hero-main {
+    color: #cce6ff;
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+    font-weight: 600px;
+}
+
+.hero-question {
+    color: #c9d9e8;
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+    font-weight: 600px;
 }
 
 .hero-img {
