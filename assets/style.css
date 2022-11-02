@@ -2,37 +2,65 @@
     background-color: #595959;
 }
 
+#navbar {
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    margin-top: 20px;
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  }
+  
+/* Style the navbar links */
+#navbar a {
+    float: right;
+    margin-right: 20px;
+    display: block;
+    color: #b366ff;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+#navbar a:hover {
+    color: #00ffcc;
+  }
+
 body {
     color: #474747;
-    background-color: #595959;
     font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
 /* Header Start */
 header {
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
+    background-color: #595959;
     overflow: hidden;
+    width: 100%;
 }
 
 header a {
     text-decoration: none;
     color: #191f1c;
+    float: right;
 }
 
-.navbar a {
+.nav {
+    transition: top 0.3s;
+}
+
+.nav a {
     padding: 14px 16px;
     font-weight: bold;
 }
 
-.navbar a:hover {
-    color: #00ffcc;
-}
 
-.navbar-items {
+.nav-items {
     float: right
 }
 /* Header End */
+
+
 
 /* Reveal Stuff */
 .reveal {
