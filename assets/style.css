@@ -1,26 +1,18 @@
+* {
+    background-color: #595959;
+}
+
 body {
     color: #474747;
+    background-color: #595959;
     font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
 /* Header Start */
 header {
-    padding: 20px 35px;
-    display: flex;
-    height: 60px;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    position: sticky;
-    border: groove rgb(180, 180, 180);
-    border-width: 15px;
-    top: 0;
-    left: 30px;
-    background-image: url("/assets/images/clouds.gif");
-    background-size: 1000px 100px;
-    background-position: center; 
-    background-attachment: fixed;
-    background-position: 80%;
-    z-index: 9999;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
 }
 
 header a {
@@ -28,37 +20,44 @@ header a {
     color: #191f1c;
 }
 
-header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-}
-
-header nav ul li a {
-    margin: 0 30px;
-    font-size: 1.8vw;
+.navbar a {
+    padding: 14px 16px;
     font-weight: bold;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
 
-header nav ul li a:hover {
-    border-radius: 15px;
-    text-shadow: none;
-  }
+.navbar a:hover {
+    color: #00ffcc;
+}
 
+.navbar-items {
+    float: right
+}
+/* Header End */
+
+/* Reveal Stuff */
+.reveal {
+    position: relative;
+    transform: translateY(0);
+    opacity: 1;
+    transition: 2s all ease;
+}
+
+.reveal.active{
+    transform: translateY(150px);
+    opacity: 0;
+}
+
+
+/* Hero Start */
 .hero-title {
     font-weight: bold;
-    font-size: 36px;
     color: #000000;
-    text-shadow: 0 0 10px rgba(38, 47, 48, 0.5);
     padding: 0 auto;
     text-align: center;
     margin-bottom: 50px;
     
 }
-/* Header End */
 
-/* Hero Start */
 .hero {
     background-size: cover;
     background-position: center;
@@ -72,9 +71,16 @@ header nav ul li a:hover {
     border: 2px solid;
     height: 350px;
     width: 250px;
-    transform: rotate(-5deg);
     margin-left: 3vw;
     margin-right: 30px;
+}
+
+h2 {
+    color: #d9d9d9;
+}
+
+p {
+    color: #b3b3b3;
 }
 
 aside {
@@ -153,7 +159,6 @@ aside {
 }
 
 #professional-work h2 {
-    font-size: 40px;
     margin-left: 10px;
     padding-left: 40px;
 }
@@ -380,14 +385,14 @@ footer h2 {
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 980px) {
+/* @media screen and (max-width: 980px) {
     header nav li {
       padding-bottom: 0;
       position: relative;
-    }
+    } */
 
     header nav ul li a {
-        font-size: 3vw;
+        /* font-size: 3vw;
     }
   
     .hero {
@@ -482,7 +487,7 @@ footer h2 {
   }
 
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
-  @media screen and (max-width: 768px) {
+/*  @media screen and (max-width: 768px) {
     header nav li {
       padding-bottom: 0;
       position: relative;
@@ -584,7 +589,7 @@ footer h2 {
   }
 
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 575px) {
+/* @media screen and (max-width: 575px) {
   header {
     display: flex;
     justify-content: space-evenly;
@@ -683,4 +688,4 @@ footer h2 {
   footer {
       font-size: 40px;
   }
-}
+} */
