@@ -13,6 +13,7 @@ body {
     padding-top: 20px;
     width: 100%; /* Full width */
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    z-index: 1;
   }
   
 /* Style the navbar links */
@@ -40,6 +41,7 @@ header {
     overflow: hidden;
     width: 100%;
     opacity: 80%;
+
 }
 
 header a {
@@ -59,7 +61,7 @@ header a {
 
 
 .nav-items {
-    float: right
+    float: right;
 }
 /* Header End */
 
@@ -82,16 +84,11 @@ header a {
 /* Hero Start */
 .hero-text {
     padding-bottom: 20px;
-    width: 80%;
+    width: 100%;
     text-align: center;
     /* margin-left: 5%;
     margin-right: 5%; */
 }
-
-/* .hero {
-    width: 80%;
-    margin: 0;
-} */
 
 .hero h3 {
     color: #b3daff;
@@ -103,13 +100,13 @@ header a {
 .hero-title {
     display: inline-block;
     text-align: left;
-    width: 80%;
+    width: 60%;
 }
 
 .hero-greeting {
     display: inline-block;
     text-align: left;
-    width: 80%;
+    width: 60%;
 }
 
 .hero h2 {
@@ -132,7 +129,7 @@ header a {
     color: #cce6ff;
     display: inline-block;
     text-align: left;
-    width: 80%;
+    width: 60%;
     font-weight: 600px;
 }
 
@@ -140,8 +137,15 @@ header a {
     color: #c9d9e8;
     display: inline-block;
     text-align: left;
-    width: 80%;
+    width: 60%;
     font-weight: 600px;
+}
+
+.hero p {
+    width: 60%;
+    text-align: left;
+    display: inline-block;
+    margin-top: -20px;
 }
 
 .hero-img {
@@ -462,3 +466,35 @@ footer h2 {
     height: 50px;
 }
 
+/* Side Bar  */
+.sidebar {
+    height: 80%;
+    width: 100px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    opacity: 100%;
+    padding-top: 40px;
+}
+
+.sidebar a {
+    display: block;
+}
+
+.ghcatimg {
+    width: 30px;
+    transition: .5s ease;
+}
+
+.instaimg {
+    width: 55px;
+    transition: .5s ease;
+    margin-left: -10px;
+    margin-top: 20px;
+}
+
+.ghcatimg:hover {
+    background: #00ffcc;
+    opacity: 0.3;
+    border-radius: 14px;
+}
