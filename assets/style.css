@@ -187,14 +187,14 @@ p > a {
     width: 250px;
     float: right;
     margin-right: 50%;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 
 .wrapper {
     display: inline;
     position: relative;
     float: right;
-    margin-right: 10%;
+    margin-right: 8%;
 }
 
 #about-me {
@@ -220,15 +220,19 @@ p > a {
     text-align: left;
     position: relative;
     width: 80%;
+    margin-left: 20%;
 }
 
 #about-me ul {
     text-align: left;
    justify-content: center;
-   margin-left: 10%; 
+   margin-left: 20%; 
    color: #cce6ff;
 }
 
+#about-me p {
+    margin-left: 20%;
+}
 
 p {
     color: #b3b3b3;
