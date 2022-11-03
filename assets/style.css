@@ -286,15 +286,15 @@ p {
     color: black;
     width: 50%;
     display: block;
+    align-items: flex-end;
 }
 
 .project-description p {
     text-align: right;
 }
 
-.project-description .project-tech-list {
+.project-description, .project-tech-list {
     float: right;
-    display: flex;
 }
 
 .project-tech-list {
@@ -303,7 +303,6 @@ p {
     flex-wrap: wrap;
     position: relative;
     z-index: 2;
-    margin: 25px 0px 10px;
     padding: 0;
     list-style: none;
 }
