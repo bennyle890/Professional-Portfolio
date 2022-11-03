@@ -166,9 +166,18 @@ p > a {
 }
 
 .container {
-    display: flex;
+    display: table;
     align-items: center;
     justify-content: center;
+}
+
+.row {
+    float: left;
+    width: 50%;
+}
+
+.profilepic {
+    margin-top: 5%;
 }
 
 .hero-img {
@@ -178,12 +187,14 @@ p > a {
     width: 250px;
     float: right;
     margin-right: 50%;
+    margin-left: 10%;
 }
 
 .wrapper {
-    display: block;
+    display: inline;
     position: relative;
     float: right;
+    margin-right: 10%;
 }
 
 #about-me {
@@ -191,7 +202,6 @@ p > a {
     width: 100%;
     text-align: center;
     display: inline-block;
-
 }
 
 .headings {
