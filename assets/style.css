@@ -224,26 +224,7 @@ p {
 }
 
 
-/* .right {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    flex: 2;
-    margin-right: 80px;
-    margin-top: 20px;
-}
-
-.right h2 {
-    width: 100%;
-    margin: 0px auto;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-} */
-
-/* .right p {
-    text-align: center;
-} */
+/* CSS Images */
 
 /* Start Projects Here */
 #projects {
@@ -352,6 +333,16 @@ h3>a {
     z-index: 1;
 }
 
+.computer-img {
+    width: 35vw;
+    height: 25vw;
+    transition: .5s ease;
+}
+
+.computer-img:hover {
+    opacity: 0.8;
+}
+
 
 
 .below-about-me {
@@ -397,101 +388,8 @@ h3>a {
 }
 /* End About Me Section */
 
-/* Start Work Section */
-.work {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
-#professional-work h2 {
-    margin-left: 10px;
-    padding-left: 40px;
-}
 
-.construction-img {
-    width: 300px;
-    height:350px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    transition: .5s ease;
-}
-
-.construction-img:hover {
-    opacity: 0.8;
-}
-
-.construction-a {
-    border: 4px solid rgb(2, 177, 247);
-    width: 300px;
-    padding: 0 auto;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.construction-a h3 {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-    color: rgb(235, 99, 253);
-}
-
-.construction-a p {
-    position: absolute;
-    top: 38px;
-    left: 17px;
-    color: rgb(235, 99, 253);
-}
-
-.cherry-img {
-    width: 400px;
-    height:150px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    transition: .5s ease;
-}
-
-.cherry-img:hover {
-    opacity: 0.8;
-}
-
-.cherry-a {
-    border: 4px solid rgb(2, 177, 247);
-    padding: 0 auto;
-    position: relative;
-    margin: 25px;
-    width: 400px;
-}
-
-.cherry-a h3 {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-    text-shadow: 0 0 12px rgba(0, 0, 0, 400);
-    color: rgb(235, 99, 253);
-
-}
-
-.cherry-a p {
-    position: absolute;
-    top: 38px;
-    left: 17px;
-    text-shadow: 0 0 12px rgba(0, 0, 0, 400);
-    color: rgb(235, 99, 253)
-}
-
-.computer-img {
-    width: 35vw;
-    height: 25vw;
-    transition: .5s ease;
-}
-
-.computer-img:hover {
-    opacity: 0.8;
-}
 
 /* End Work Section */
 
