@@ -86,8 +86,8 @@ header a {
     padding-bottom: 20px;
     width: 100%;
     text-align: center;
-    /* margin-left: 5%;
-    margin-right: 5%; */
+    padding-bottom: 25%;
+
 }
 
 .hero h3 {
@@ -151,7 +151,8 @@ header a {
 .hero-text p {
     font-size: 1.2em;
     position: relative;
-
+    width: 30%;
+    margin-right: 29%;
 }
 
 p > a {
@@ -533,6 +534,6 @@ footer h2 {
 
 .sidebar p {
     transform: rotate(90deg);
-    margin-top: 200px;
+    margin-top: 150px;
     margin-left: 15px;
 }
