@@ -13,7 +13,7 @@ body {
     padding-top: 20px;
     width: 100%; /* Full width */
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
-    z-index: 1;
+    z-index: 4;
   }
   
 /* Style the navbar links */
@@ -40,8 +40,8 @@ header {
     background-color: #595959;
     overflow: hidden;
     width: 100%;
-    opacity: 80%;
-
+    opacity: 90%;
+    z-index: 3;
 }
 
 header a {
@@ -86,12 +86,12 @@ header a {
     padding-bottom: 20px;
     width: 100%;
     text-align: center;
-    padding-bottom: 25%;
+    padding-bottom: 15%;
 
 }
 
 .hero h3 {
-    color: #00ffcc;
+
     font-size: 1.5em;
     font-weight: 400;
     margin-bottom: -20px;
@@ -100,18 +100,19 @@ header a {
 .hero-title {
     display: inline-block;
     text-align: left;
-    width: 60%;
+    width: 80%;
 }
 
 .hero-greeting {
     display: inline-block;
     text-align: left;
-    width: 60%;
+    width: 80%;
 }
 
 .hero h2 {
     font-size: 2em;
     font-weight: 400;
+    color: #00ffcc;
 }
 
 .hero h1 {
@@ -129,7 +130,7 @@ header a {
     color: #cce6ff;
     display: inline-block;
     text-align: left;
-    width: 60%;
+    width: 80%;
     font-weight: 600px;
 }
 
@@ -137,12 +138,12 @@ header a {
     color: #c9d9e8;
     display: inline-block;
     text-align: left;
-    width: 60%;
+    width: 80%;
     font-weight: 600px;
 }
 
 .hero p {
-    width: 60%;
+    width: 80%;
     text-align: left;
     display: inline-block;
     margin-top: -20px;
@@ -151,7 +152,7 @@ header a {
 .hero-text p {
     font-size: 1.2em;
     position: relative;
-    width: 30%;
+    width: 35%;
     margin-right: 29%;
 }
 
@@ -160,28 +161,66 @@ p > a {
     color: #00ffcc;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .hero-img {
     border-radius: 10%;
     border: 2px solid;
     height: 350px;
     width: 250px;
-    margin-left: 3vw;
-    margin-right: 30px;
+    float: right;
+    margin-right: 50%;
 }
 
-h2 {
-    color: #d9d9d9;
+.wrapper {
+    display: block;
+    position: relative;
+    float: right;
+}
+
+#about-me {
+    padding-top: 10%;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.headings {
+    color: #00ffcc;
+    position: relative;
+    width: 80%;
+    text-align: left;
+    font-weight: 600;
+    display: inline-block;
+    border-bottom: 1px solid #00ffcc;
+}
+
+#about-me h5 {
+    font-size: 1.5em;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    width: 80%;
 }
 
 p {
     color: #b3b3b3;
+    font-size: 1.2em;
 }
 
-aside {
-    flex: .5;
+#professional-work {
+    padding-top: 10%;
+    width: 100%;
+    text-align: center;
 }
 
-.right {
+
+/* .right {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -196,11 +235,105 @@ aside {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+} */
+
+/* .right p {
+    text-align: center;
+} */
+
+/* Start Projects Here */
+#projects {
+    justify-content: center;
+    width: 80%;
 }
 
-.right p {
-    text-align: center;
+.featured-project-styled {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    position: relative;
+    display: grid;
+    align-items: center;
+    /* width: 80%; */
 }
+
+.project-content {
+    position: relative;
+    grid-area: 1 / 1 / -1 / 7;
+}
+
+.project-overline {
+    margin: 10px 0px;
+    color: #00ffcc;
+    font-weight: 400px;
+    text-align: right;
+}
+
+.project-title {
+    margin: 0px 0px 20px;
+    color: #b3daff;
+    text-decoration: none;
+    text-align: right;
+    font-size: 1.5em;
+}
+
+.project-description {
+    box-shadow: 0 10px 30px -15px ;
+    position: relative;
+    z-index: 2;
+    padding: 25px;
+    border-radius: 10px;
+    color: black;
+    width: 50%;
+    display: block;
+}
+
+.project-description p {
+    text-align: right;
+}
+
+.project-description .project-tech-list {
+    float: right;
+    display: flex;
+}
+
+.project-tech-list {
+    justify-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+    margin: 25px 0px 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.project-tech-list li {
+    margin-left: 10px;
+    justify-content: flex-end;
+    text-align: right;
+    display: flex;
+
+}
+
+.project-links {
+    justify-content: flex-end;
+    margin-left: 0px;
+    margin-right: -10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+}
+
+.project-image {
+    box-shadow: 0px 10px 30px -15px;
+    grid-area: 1 / 6 / -1 / -1;
+    position: relative;
+    z-index: 1;
+}
+
+
 
 .below-about-me {
     display: flex;
@@ -333,7 +466,7 @@ aside {
 
 .computer-img {
     width: 400px;
-    height:150px;
+    height:400px;
     margin-left: auto;
     margin-right: auto;
     display: block;

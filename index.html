@@ -27,23 +27,39 @@
         <p> I'm a Full Stack Developer student at the <a href="https://www.charlotte.edu/" target="_blank" rel="UNCC website"> University of North Carolina at Charlotte.</a> I am open to learning more about the computer/coding/developer world while also open to the job opportunities that may arise.</p>
     </div>
 
-    <!-- Sidebar -->
-      <aside>
+
+      <!-- <aside>
         <img class="hero-img" src="./assets/images/BLe_Headshot.jpg" alt="Benny's headshot" />
-      </aside>
+      </aside> -->
+
     <!-- About Me -->
-      <section class="right" id="about-me">
-        <h2>Hi! You can call me Benny. I am a coding student at UNC Charlotte and an aspiring Developer based in North Carolina </h2>
-          <p>
-            I currently work as a night shift Emergency Department Technician at a Level 1 Trauma center. I graduated in 2020 with a Bachelor's of Science in Exercise Science with a minor in Biology. As I continued my journey through healthcare, I discovered that I wanted to express my creative and logical side outside of patient care. Utilizing my creativity, I am able to design to my heart's desire and my logical to code. As I am inexperienced, I believe that my lack of experience allows me to learn and be open to the opportunities that arise. 
-          </p>
-          <p>
-            I enjoy traveling and admiring the beautiful architecture and scenery that different venues of the world have to offer. Below are a couple of my favorite pictures of places that I have traveled.
-          </p>
+      <section class="about-me container" id="about-me">
+        <div>
+          <h2 class="headings">About Me </h2>
+          <h5>Hi! You can call me Benny. I am a coding student at UNC Charlotte and an aspiring Developer based in North Carolina </h5>
+            <p>
+              I currently work as a night shift Emergency Department Technician at a Level 1 Trauma center. I graduated in 2020 with a Bachelor's of Science in Exercise Science with a minor in Biology. As I continued my journey through healthcare, I discovered that I wanted to express my creative and logical side outside of patient care. Utilizing my creativity, I am able to design to my heart's desire and my logical to code. As I am inexperienced, I believe that my lack of experience allows me to learn and be open to the opportunities that arise. 
+            </p>
+            <p>
+              I enjoy traveling and admiring the beautiful architecture and scenery that different venues of the world have to offer. Below are a couple of my favorite pictures of places that I have traveled.
+            </p>
+            <p>Here are a few technologies I've worked with recently while learning:</p>
+            <ul>
+              <li>Javascript (ES6+)</li>
+              <li>Node.js</li>
+              <li>MySql</li>
+              <li>Express</li>
+            </ul>
+        </div>
+        <div class="profilepic">
+          <div class="wrapper">
+            <img class="hero-img" src="./assets/images/BLe_Headshot.jpg" alt="Benny's headshot" />
+          </div>
+        </div>
       </section>
   </main>
     
-    <div class="below-about-me">
+    <!-- <div class="below-about-me">
       <section class="about-lake">
         <img src="assets/images/jump-ice.jpg" class="frozen-lake" alt="Me Jumping on a Frozen Lake" />
             <p class="about-me-img">Frozen Lake in Wisconsin</p>
@@ -56,13 +72,46 @@
         <img src="assets/images/vegas-fremont.jpg" class="fremont" alt="Fremont Street Views" />
         <p class="about-me-img">Fremont Street in Las Vegas</p>
       </section>
-    </div>
+    </div> -->
 
     <br></br>
 
     <!-- Professional Work -->
-    <div  id="professional-work">
-      <h2>Professional Work</h2>
+    <section id="projects">
+      <h2 class="headings">Professional Work</h2>
+      <ul class="featured-projects">
+        <li class="featured-project-styled">
+          <div class="project-content">
+            <div>
+              <p class="project-overline">Featured Project</p>
+              <h3 class="project-title"><a href="https://qc-foodies.herokuapp.com/" target="blank">QC Foodies </a></h3>
+              <div class="project-description">
+                <p>An online blog about food found in Charlotte, North Carolina. Utilizing <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>, <a href="https://www.npmjs.com/" target="_blank">npm</a>, <a href="https://www.javascript.com/" target="_blank">JavaScript</a>, and more. </p>
+              </div>
+              <ul class="project-tech-list">
+                <li>VS Code</li>
+                <li>Bulma</li>
+                <li>Express</li>
+                <li>Node.js</li>
+              </ul>
+              <div class="project-links">
+                <!-- Will Add Later -->
+              </div>
+            </div>
+          </div>
+          <div class="project-image">
+            <a href="https://qc-foodies.herokuapp.com/" target="_blank">
+              <div class="image-wrapper">
+                <img src="assets/images/QCFoodiesHomepage.png" class="computer-img" alt="Pictures of computers" />
+              </div>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <div id="professional-work">
+      <h2 class="headings">Professional Work</h2>
       <section class="construction-a">
         <a href="https://www.youtube.com/watch?v=5GL9JoH4Sws&ab_channel=FifthHarmonyVEVO" target="blank">
           <img src="assets/images/construction.gif" class="construction-img" alt="Under Construction Photo" /> </a>
@@ -113,25 +162,7 @@
 
     <!--Footer-->
     <footer id="contact">
-      <section>
-        <h2>Contact Me</h2>
-      </section>
-      <div class="contact">
-        <section>
-          Phone: <a href="tel:704-433-2376">(704) 433-2376</a> 
-        </section>
-        <p>Email: <a href="mailto:benny.le890@gmail.com">Benny.Le890@gmail.com</a> </p>
-        <aside>
-          <section>
-          <a href="https://github.com/bennyle890" target="blank">
-            <img src="assets/images/github.png" class="github-img" alt="github logo" /> </a>
-          </section>
-          <section>
-          <a href="https://www.linkedin.com/in/benny-le/" target="blank">
-            <img src="assets/images/linkedin.png" class="linkedin-img" alt="linkedin logo" /></a>
-          </section>
-          </aside>
-      </div>
+      <p>Designed & Built by Benny Le</p>
     </footer>
     <script src="./assets/js/script.js"></script>
   </body>
