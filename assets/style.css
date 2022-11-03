@@ -222,6 +222,14 @@ p > a {
     width: 80%;
 }
 
+#about-me ul {
+    text-align: left;
+   justify-content: center;
+   margin-left: 10%; 
+   color: #cce6ff;
+}
+
+
 p {
     color: #b3b3b3;
     font-size: 1.2em;
