@@ -355,12 +355,14 @@ h3>a {
     grid-area: 1 / 6 / -1 / -1;
     position: relative;
     z-index: 1;
+
 }
 
 .computer-img {
     width: 35vw;
     height: 25vw;
     transition: .5s ease;
+
 }
 
 .computer-img:hover {
