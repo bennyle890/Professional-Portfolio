@@ -486,6 +486,12 @@ footer h2 {
     transition: .5s ease;
 }
 
+.ghcatimg:hover {
+    background: #00ffcc;
+    opacity: 0.3;
+    border-radius: 14px;
+}
+
 .instaimg {
     width: 55px;
     transition: .5s ease;
@@ -493,8 +499,8 @@ footer h2 {
     margin-top: 20px;
 }
 
-.ghcatimg:hover {
+.instaimg:hover {
     background: #00ffcc;
     opacity: 0.3;
-    border-radius: 14px;
+    border-radius: 50%;
 }
