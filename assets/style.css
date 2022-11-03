@@ -186,6 +186,7 @@ p > a {
     height: 350px;
     width: 250px;
     float: right;
+    /* position: relative; */
     margin-right: 50%;
     margin-left: 15%;
 }
@@ -196,6 +197,7 @@ p > a {
     float: right;
     margin-right: 8%;
 }
+
 
 #about-me {
     padding-top: 10%;
