@@ -467,6 +467,7 @@ footer h2 {
 }
 
 /* Side Bar  */
+
 .sidebar {
     height: 80%;
     width: 100px;
@@ -484,6 +485,7 @@ footer h2 {
 .ghcatimg {
     width: 30px;
     transition: .5s ease;
+    margin-left: 2px;
 }
 
 .ghcatimg:hover {
@@ -503,4 +505,17 @@ footer h2 {
     background: #00ffcc;
     opacity: 0.3;
     border-radius: 50%;
+}
+
+.linkedinimg {
+    width: 28px;
+    transition: .5s ease;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+
+.linkedinimg:hover {
+    background: #00ffcc;
+    opacity: 0.3;
+    border-radius: 3px;
 }
